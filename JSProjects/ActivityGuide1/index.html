@@ -1,0 +1,97 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta name ="viewport" content="width=device-width,initial-scale=1.0">
+        <title>Activity Guide 1 </title>
+    </head>
+
+    <body>
+        <h1> Activity Guide 1 </h1>
+
+        <h4> 1. Personal Information </h4>
+        Name: <input type ="text" id = "name"><br></br>
+        Address: <input type="text" id="address"><br></br>
+        Telephone Number: <input type="text" id="telephone"><br></br>
+        Major: <input type="text" id="major"><br></br>
+
+        <button id = "btn1" >Submit</button>
+        <p id = "output"></p>
+
+        <hr>
+
+        <h4> 2. Sales Prediction </h4> 
+        <label for="salesInput">Enter projected total sales:</label>
+        <input type="text" id="salesInput"><br></br>
+        <button onclick="calculateProfit()">Calculate Profit</button>
+        <p id="result"></p>
+
+        <hr>
+
+        <h4> 3. Distance Traveled </h4>
+        <label for="time1">Time 1 (in hours):</label>
+        <input type="text" id="time1"><br></br>
+
+        <label for="time2">Time 2 (in hours):</label>
+        <input type="text" id="time2"><br></br>
+
+        <label for="time3">Time 3 (in hours):</label>
+        <input type="text" id="time3"><br></br>
+
+        <button onclick="calculateDistance()">Calculate</button>
+        <h3>Results:</h3>
+        <p id="result1"></p>
+        <p id="result2"></p>
+        <p id="result3"></p>
+
+        <hr>
+
+        <h4>4. Miles-per-Gallon</h4>
+        <label for="milesDriven">Miles Driven:</label>
+        <input type="number" id="milesDriven"><br></br>
+
+        <label for="gallonsUsed">Gallons of Gas Used:</label>
+        <input type="number" id="gallonsUsed"><br></br>
+
+        <button onclick="calculateMPG()">Calculate</button>
+        <h3>Result:</h3>
+        <p id="result4"></p>
+
+        <hr>
+
+        <h4>5. Celsius to Fahrenheit Temperature Converter</h4>
+        <label for="celsiusTemp">Enter temperature in Celsius:</label>
+        <input type="number" id="celsiusTemp"><br></br>
+
+        <button onclick="convertTemperature()">Convert</button>
+        <h3>Result:</h3>
+        <p id="result5"></p>
+
+        <hr>
+
+        <h4>6. Cookie Calories</h4>
+        <label for="cookiesEaten">Number of cookies eaten:</label>
+        <input type="number" id="cookiesEaten"><br></br>
+
+        <button onclick="calculateCalories()">Calculate</button>
+        <h3>Result:</h3>
+        <p id="result6"></p>
+
+        <hr>
+
+        <h4> 7. Male and Female </h4>      
+        <label for="males"> Number of males: </label>
+        <input type="number" id="males"><br></br>
+
+        <label for="females"> Number of females: </label>
+        <input type="number" id="females"><br></br>
+
+        <button onclick="calculatePercentages()">Calculate</button>
+        <h3>Result:</h3>
+        <p id="result7"></p>
+
+        <hr>
+
+        <script src="app.js"></script>
+    </body>
+</html>
