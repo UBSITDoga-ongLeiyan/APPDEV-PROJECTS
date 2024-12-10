@@ -1,0 +1,306 @@
+/* General Reset */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: 'Arial', sans-serif;
+}
+
+body {
+  background-color: #343a40; /* Dark gray background */
+  color: white; /* White text */
+  font-size: 16px;
+}
+
+/* Container for centering content */
+.container {
+  width: 100%;
+  max-width: 1200px; /* Adjust based on desired max width */
+  margin: 20px auto; /* Center horizontally and add vertical spacing */
+  padding: 20px;
+  background-color: #495057; /* Slightly lighter gray background */
+  border-radius: 8px;
+  box-shadow: 0 4px 20px rgba(0, 0, 0, 0.1);
+}
+
+/* Employee List Styling */
+.employee-list {
+  list-style-type: none; /* Remove default list styling */
+  padding: 0;
+}
+
+.employee-list li {
+  margin: 15px 0; /* Vertical spacing between employees */
+  background-color: #6c757d; /* Medium gray background */
+  padding: 15px;
+  border-radius: 5px;
+  transition: background-color 0.3s; /* Smooth transition */
+}
+
+.employee-list li:hover {
+  background-color: #5a6268; /* Darker gray on hover */
+}
+
+.employee-list a {
+  text-decoration: none; /* Remove underline from links */
+  color: #ffffff; /* White text for links */
+}
+
+.employee-list a h4 {
+  margin-bottom: 5px; /* Space between name and position */
+}
+
+.employee-list a p {
+  margin: 0; /* Remove default margin */
+}
+
+/* Headings Styling */
+h2 {
+  font-size: 28px;
+  margin-bottom: 15px;
+  color: #ffffff; /* White for section titles */
+}
+
+h3 {
+  font-size: 24px;
+  margin-bottom: 10px;
+  color: #ffffff; /* White for subheadings */
+}
+
+/* Mission and Vision Container */
+.mission-vision {
+  background-color: #6c757d; /* Medium gray background */
+  padding: 30px; /* Increased padding for better spacing */
+  border-radius: 8px;
+  margin: 20px auto; /* Centered with auto margins */
+  text-align: center; /* Center text */
+  box-shadow: 0 2px 10px rgba(0, 0, 0, 0.2); /* Subtle shadow for depth */
+  max-width: 800px; /* Set a maximum width for the container */
+  width: 90%; /* Responsive width */
+}
+
+/* Centering Text Styles */
+h1, h2, h3, h4, p, ul {
+  text-align: center;
+}
+
+/* Headings Styling */
+h1 {
+  font-size: 36px;
+  margin-bottom: 10px;
+  color: #ffffff; /* White for main title */
+}
+
+h2 {
+  font-size: 28px;
+  margin-bottom: 15px;
+  color: #ffffff; /* White for section titles */
+}
+
+h3, h4 {
+  font-size: 24px;
+  margin-bottom: 10px;
+  color: #ffffff; /* White for subheadings */
+}
+
+/* Paragraph Styling */
+p {
+  margin-bottom: 15px;
+  color: #ffffff; /* White for paragraph text */
+}
+
+/* List Styling */
+ul {
+  list-style-type: none;
+  padding: 0;
+}
+
+ul li {
+  margin-bottom: 10px;
+  background-color: #6c757d; /* Medium gray for list items */
+  padding: 10px;
+  border-radius: 5px;
+}
+
+/* Header Styling */
+header {
+  background-color: #007bff; /* Bright blue */
+  color: white;
+  padding: 20px;
+  text-align: center;
+}
+
+/* Navigation Styling */
+nav {
+  margin-top: 10px;
+}
+
+nav a {
+  color: white; /* White for nav links */
+  margin: 0 15px;
+  text-decoration: none;
+  font-size: 18px;
+}
+
+nav a:hover {
+  text-decoration: underline;
+  opacity: 0.8; /* Slightly faded effect on hover */
+}
+
+/* Main Content Styling */
+main {
+  padding: 20px;
+}
+
+/* Form Styling */
+form {
+  margin-top: 20px;
+}
+
+form input,
+textarea {
+  width: 100%;
+  padding: 10px;
+  border: 1px solid #ced4da; /* Light gray border */
+  border-radius: 5px;
+  margin-bottom: 10px;
+  color: #ffffff; /* White text for inputs */
+  background-color: #495057; /* Match container background */
+}
+
+button {
+  padding: 10px 15px;
+  background-color: #28a745; /* Green for buttons */
+  color: white;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+button:hover {
+  background-color: #218838; /* Darker green on hover */
+}
+
+/* Product Detail Section */
+.product-detail {
+  padding: 20px;
+  background-color: #495057; /* Match container background */
+  margin-bottom: 20px;
+}
+
+/* Footer Styling */
+footer {
+  background-color: #007bff;
+  color: white;
+  padding: 20px 0;
+  text-align: center;
+}
+
+.footer-content {
+  max-width: 1200px;
+  margin: 0 auto;
+}
+
+.footer-links {
+  margin-top: 10px;
+}
+
+.footer-links a {
+  color: white; /* White for footer links */
+  margin: 0 15px;
+  text-decoration: none;
+}
+
+.footer-links a:hover {
+  text-decoration: underline;
+  opacity: 0.8; /* Slightly faded effect on hover */
+}
+
+/* Developer Page Styling */
+.developer-page {
+  padding: 20px;
+}
+
+.developer-list {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 20px;
+  justify-content: center;
+}
+
+.developer-card {
+  background-color: #495057; /* Match container background */
+  padding: 20px;
+  border: 1px solid #dee2e6; /* Light gray border */
+  border-radius: 8px;
+  width: 250px;
+  text-align: center;
+  transition: box-shadow 0.3s ease; /* Smooth shadow effect */
+}
+
+.developer-card:hover {
+  box-shadow: 0 4px 20px rgba(0, 0, 0, 0.2); /* Shadow on hover */
+}
+
+.developer-card h3 {
+  font-size: 22px;
+  margin-bottom: 10px;
+  color: #ffffff; /* White for card titles */
+}
+
+.developer-card p {
+  font-size: 16px;
+  color: #ffffff; /* White for card text */
+}
+
+.developer-card button {
+  padding: 10px 20px;
+  background-color: #007bff; /* Bright blue */
+  color: white;
+  border: none;
+  cursor: pointer;
+  margin-top: 10px;
+}
+
+.developer-card button:hover {
+  background-color: #0056b3; /* Darker blue on hover */
+}
+
+/* Product Styling */
+.product-list ul {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 20px;
+  justify-content: center;
+}
+
+.product-list li {
+  list-style-type: none;
+  background-color: #495057; /* Match container background */
+  padding: 15px;
+  border-radius: 8px;
+  border: 1px solid #ddd;
+  width: 200px;
+  text-align: center;
+  transition: background-color 0.3s ease; /* Smooth transition on hover */
+}
+
+.product-list li:hover {
+  background-color: #6c757d; /* Medium gray on hover */
+}
+
+.product-list a {
+  text-decoration: none;
+  color: white; /* White for product links */
+}
+
+/* Reviews Section */
+textarea {
+  width: 100%;
+  padding: 10px;
+  font-size: 16px;
+  border: 1px solid #ced4da; /* Light gray border */
+  border-radius: 5px;
+  color: #ffffff; /* White text for textarea */
+  background-color: #495057; /* Match container background */
+}
